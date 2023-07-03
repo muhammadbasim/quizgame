@@ -1,0 +1,61 @@
+.categories-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* take full height of the viewport */
+}
+
+.categories {
+  flex: 4;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 20px;
+  color: gray;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  max-width: 90%; /* You may need to adjust this as per your requirement */
+}
+
+
+.categories {
+  flex: 4;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 20px;
+  color: gray;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  max-width: 90%; /* adding max-width to keep some padding around the container */
+}
+
+.categories .title {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+}
+
+.categories .ctg1, .categories .ctg2, .categories .ctg3 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.categories .btn-1, .categories .btn-2, .categories .btn-3, .categories .btn-4, .categories .btn-5, .categories .btn-6, .categories .btn-add {
+  border: 2px solid #6439ff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+  width: 170px;
+  margin: 20px;
+  transition: all 0.3s ease;
+}
+
+.categories .btn-add {
+  background-color: #6439ff;
+  color: #fff;
+}
+
+.categories .btn-1:hover, .categories .btn-2:hover, .categories .btn-3:hover, .categories .btn-4:hover, .categories .btn-5:hover, .categories .btn-6:hover, .categories .btn-add:hover {
+  transform: scale(1.05);
+}
